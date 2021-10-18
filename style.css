@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monserrat:wght@500&display=swap');
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 900px) {
     span {
         background: black;
         border-radius: 10pt 10pt;
@@ -330,7 +330,7 @@
     }
 }
 
-@media only screen and (min-width: 761px) {
+@media only screen and (min-width: 901px) {
     .links {
       width: 60%;
       
