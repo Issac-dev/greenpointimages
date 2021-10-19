@@ -700,4 +700,7 @@
     margin-top: 320pt;
     margin-right: 120pt;
   }
+  .logo {
+    display: none;
+}
 }
