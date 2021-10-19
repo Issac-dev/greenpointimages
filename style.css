@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monserrat:wght@500&display=swap');
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 760px) {
     span {
         background: black;
         border-radius: 10pt 10pt;
@@ -8,6 +8,10 @@
         height: 1.5pt;
         margin: 3.7px;
         display: block;
+      }
+      .logo {
+          height: 30pt;
+          width: 30pt;
       }
       .links {
         display: none;
@@ -34,7 +38,7 @@
       .header {
           float: left;
           margin-left: 5pt;
-          margin-top: -30pt;
+          margin-top: -50pt;
           width: 70%;
       }
       .top {
@@ -46,7 +50,7 @@
           color: black;
       }
       .column-2 {
-          height: 300pt;
+          height: 200pt;
           background-image: url(bgs/smoke.jpg);
           background-repeat: no-repeat;
       }
@@ -60,7 +64,7 @@
       }
       .colunn-2-texts {
         color: white;
-        width: 70%;
+        width: 60%;
         font-size: 17pt;
         font-family: 'Open Sans', sans-serif;
         margin-left: 28pt;
@@ -180,6 +184,7 @@
     .column-6-texts {
         color: #130327;
         width: 50%;
+        margin-top: -25pt;
         font-size: 13pt;
         font-family: 'Open Sans', sans-serif;
     }
@@ -330,7 +335,7 @@
     }
 }
 
-@media only screen and (min-width: 901px) {
+@media only screen and (min-width: 761px) {
     .links {
       width: 60%;
       
