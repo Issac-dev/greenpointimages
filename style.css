@@ -93,7 +93,7 @@
         padding-top: 10pt;
         padding-bottom: 10pt;
       }
-    .column-2-texts {
+      .column-2-texts {
         font-family: 'Open Sans' sans-serif;
       }
       .column-2-body {
@@ -286,12 +286,12 @@
         padding-top: 10pt;
         padding-bottom: 10pt;
       }
-    .column-2-texts {
-        font-family: 'Open Sans' sans-serif;
-      }
       .column-2-body {
         width: 70%;
         font-size: 17pt;
+      }
+      .column-2-texts {
+        font-family: 'Open Sans' sans-serif;
       }
       .column-2 h2{
         font-weight: bold;
