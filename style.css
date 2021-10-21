@@ -185,6 +185,9 @@
         padding-top: 10pt;
         display: none;
     }
+    .column-6-texts {
+        margin-top: -15pt;
+    }
 }
 
 @media screen and (min-width: 760px) {
@@ -371,5 +374,8 @@
     #part-6 {
         padding-top: 10pt;
         display: none;
+    }
+    .column-6-texts {
+        margin-top: -15pt;
     }
 }
