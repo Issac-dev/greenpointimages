@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monserrat:wght@500&display=swap');
+@media screen and (max-width: 760px) {
     span {
         background: rgb(255, 255, 255);
         border-radius: 10pt 10pt;
@@ -73,6 +74,7 @@
           margin-top: 20pt;
           height: 150pt;
           width: 80%;
+          transition: 0.5s;
       }
       .column-1-body {
           width: 70%;
@@ -150,3 +152,220 @@
           font-weight: bold;
           color:  rgb(90, 7, 86);
       }
+      #pic-1:hover {
+          height: 200pt;
+      }
+      #part-1 {
+          background-color: rgb(42, 4, 46);
+          color: white;
+          display: none;
+      }
+      #part-2 {
+        background-color: rgb(15, 4, 46);
+        color: white;
+        display: none;
+    }
+    #part-3 {
+        background-color: rgb(46, 4, 25);
+        color: white;
+        display: none;
+    }
+    #part-4 {
+        background-color: rgb(4, 31, 46);
+        color: white;
+        display: none;
+    }
+    #part-5 {
+        background-color: rgb(4, 49, 42);
+        color: white;
+        display: none;
+    }
+    #part-6 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    span {
+        background: rgb(255, 255, 255);
+        border-radius: 10pt 10pt;
+        width: 15pt;
+        height: 1.5pt;
+        margin: 3.7px;
+        display: block;
+      }
+      .logo {
+          height: 30pt;
+          width: 30pt;
+      }
+      .links {
+        display: none;
+        height: 340pt;
+        width: 100%;
+        margin-top: 50pt;
+        background-color: white;
+        background-size: cover;
+        overflow: hidden;
+        position: relative;
+      }
+      .links p {
+        color: black;
+        margin-top: 0pt;
+        padding-top: 5pt;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15pt;
+        text-align: center;
+      }
+      .drawer {
+          float: right;
+          margin-top: 17pt;
+          margin-right: 10pt;
+      }
+      .header {
+          float: left;
+          margin-left: 5pt;
+          margin-top: -50pt;
+          width: 70%;
+          color: white;
+      }
+      .top {
+          height: 50pt;
+          background-color: rgb(0, 0, 0);
+      }
+      .link {
+          color: black;
+      }
+      button {
+          width: 70pt;
+          height: 30pt;
+          border: 0pt;
+          border-radius: 15pt;
+          background-color: rgb(90, 7, 86);
+      }
+      .link-button p {
+        color: white;
+        margin-top: 5pt;
+        font-weight: bold;
+      }
+      .display {
+          font-size: 17pt;
+      }
+      .column-1 {
+          background-color: black;
+          color: white;
+          height: 490pt;
+      }
+      .pic-2 {
+          margin-top: 20pt;
+          height: 10%;
+          width: 60%;
+          transition: 0.5s;
+      }
+      .column-1-body {
+          width: 70%;
+          font-size: 14pt;
+      }
+      .column-1-body p {
+          font-family: 'Open Sans' sans-serif;
+      }
+      .column-1-body h2 {
+          font-weight: bold;
+          font-family: 'Monseerat' sans-serif;
+      }
+      .column-2 {
+        background-color: rgb(233, 227, 227);
+        padding-top: 10pt;
+        padding-bottom: 10pt;
+      }
+      .column-2-body {
+        width: 70%;
+        font-size: 17pt;
+      }
+      .column-2 h2{
+        font-weight: bold;
+          font-family: 'Monseerat' sans-serif;
+      }
+      .column-2 p {
+        font-family: 'Open Sans' sans-serif;
+        font-size: 13pt;
+      }
+      .column-3 {
+        background-color: white;
+        padding-top: 10pt;
+        padding-bottom: 10pt;
+      }
+      .column-3 h2{
+        font-weight: bold;
+          font-family: 'Monseerat' sans-serif;
+      }
+      .column-3 p {
+        font-family: 'Open Sans' sans-serif;
+        font-size: 13pt;
+      }
+      .column-9 {
+          background-color: black;
+          color: white;
+          text-align: center;
+          padding-top: 5pt;
+          padding-bottom: 2pt;
+          height: 30pt;
+      }
+      .signup {
+          height: 380pt;
+          width: 70%;
+          padding-top: 40pt;
+      }
+      .signup input {
+          width: 100%;
+          margin-bottom: 10pt;
+          box-shadow: 1pt;
+          border-color: rgb(155, 148, 148);
+      }
+      .signup p {
+          text-align: left;
+          font-size: 11pt;
+          font-family: 'Open Sans' sans-serif;
+      }
+      .column-8-texts {
+          color: white;
+          font-weight: bold;
+          margin-left: 30%;
+          margin-top: 4%;
+      }
+      .display-signup {
+          font-size: 23pt;
+          font-weight: bold;
+          color:  rgb(90, 7, 86);
+      }
+      #pic-1 {
+          height: 300pt;
+      }
+      #part-1 {
+          background-color: rgb(42, 4, 46);
+          color: white;
+          display: none;
+      }
+      #part-2 {
+        background-color: rgb(15, 4, 46);
+        color: white;
+        display: none;
+    }
+    #part-3 {
+        background-color: rgb(46, 4, 25);
+        color: white;
+        display: none;
+    }
+    #part-4 {
+        background-color: rgb(4, 31, 46);
+        color: white;
+        display: none;
+    }
+    #part-5 {
+        background-color: rgb(4, 49, 42);
+        color: white;
+        display: none;
+    }
+    #part-6 {
+        display: none;
+    }
+}
