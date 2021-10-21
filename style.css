@@ -1,14 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monserrat:wght@500&display=swap');
-@media only screen and (max-width: 760px) {
-    #pic-1, #pic-2, #pic-3, #pic-4, #text-1, #pic-5, #text-2, #text-3, #pic-6, #text-4 {
-        display: none;
-    }
-    #pic-2, #pic-4, #pic-6 {
-        width: 0pt;
-    }
     span {
-        background: black;
+        background: rgb(255, 255, 255);
         border-radius: 10pt 10pt;
         width: 15pt;
         height: 1.5pt;
@@ -21,15 +14,16 @@
       }
       .links {
         display: none;
-        height: 100pt;
+        height: 340pt;
         width: 100%;
-        background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(bgs/water-drops-6373296__480.jpg);
+        margin-top: 50pt;
+        background-color: white;
         background-size: cover;
         overflow: hidden;
         position: relative;
       }
       .links p {
-        color: white;
+        color: black;
         margin-top: 0pt;
         padding-top: 5pt;
         font-family: 'Open Sans', sans-serif;
@@ -46,702 +40,113 @@
           margin-left: 5pt;
           margin-top: -50pt;
           width: 70%;
+          color: white;
       }
       .top {
           height: 50pt;
-          border-bottom: solid rgb(155, 153, 155);
-          background-color: rgb(240, 237, 235);
+          background-color: rgb(0, 0, 0);
       }
       .link {
           color: black;
       }
-      .column-2 {
-          height: 450pt;
-          background-image: url(bgs/smoke.jpg);
-          background-repeat: no-repeat;
-          background-size: cover;
+      button {
+          width: 70pt;
+          height: 30pt;
+          border: 0pt;
+          border-radius: 15pt;
+          background-color: rgb(90, 7, 86);
       }
-      .display-4 {
-          color: white;
-          font-size: 25pt;
-          font-weight: bold;
-          margin-top: 0pt;
-          padding-top: 35pt;
-          margin-left: 28pt;
-      }
-      .colunn-2-texts {
+      .link-button p {
         color: white;
-        width: 60%;
-        font-size: 17pt;
-        font-family: 'Open Sans', sans-serif;
-        margin-left: 28pt;
+        margin-top: 5pt;
+        font-weight: bold;
       }
-      .pic {
-          box-shadow: 4pt 4pt 5pt rgb(0, 0, 0);
-          width: 85%;
-          height: 350pt;
-          border-radius: 1pt 10pt 1pt 10pt;
+      .display {
+          font-size: 17pt;
+      }
+      .column-1 {
+          background-color: black;
+          color: white;
+          height: 380pt;
+      }
+      .pic-2 {
           margin-top: 20pt;
-          margin-bottom: 20pt;
+          height: 150pt;
+          width: 80%;
+      }
+      .column-1-body {
+          width: 70%;
+          font-size: 14pt;
+      }
+      .column-1-body p {
+          font-family: 'Open Sans' sans-serif;
+      }
+      .column-1-body h2 {
+          font-weight: bold;
+          font-family: 'Monseerat' sans-serif;
+      }
+      .column-2 {
+        background-color: rgb(233, 227, 227);
+        padding-top: 10pt;
+        padding-bottom: 10pt;
+      }
+      .column-2-body {
+        width: 70%;
+        font-size: 17pt;
+      }
+      .column-2 h2{
+        font-weight: bold;
+          font-family: 'Monseerat' sans-serif;
+      }
+      .column-2 p {
+        font-family: 'Open Sans' sans-serif;
+        font-size: 13pt;
       }
       .column-3 {
-        background-color: rgb(37, 2, 27);
+        background-color: white;
+        padding-top: 10pt;
+        padding-bottom: 10pt;
       }
-      .column-4 {
-          height: 340pt;
-          background-color: rgb(37, 2, 27);
-          margin-top: -16pt;
+      .column-3 h2{
+        font-weight: bold;
+          font-family: 'Monseerat' sans-serif;
       }
-      .column-4-user {
-        height: 100%;
-        background-color: rgb(37, 2, 27);
-    }
-      .display-5 {
-          color: #00f2fa;
-          font-size: 22pt;
-          font-weight: bold;
-          margin-top: 0pt;
-          padding-top: 35pt;
-          margin-left: 28pt;
-          font-family: 'Open Sans', sans-serif;
+      .column-3 p {
+        font-family: 'Open Sans' sans-serif;
+        font-size: 13pt;
       }
-      .column-4-texts {
+      .column-9 {
+          background-color: black;
           color: white;
-          margin-top: 0pt;
+          text-align: center;
           padding-top: 5pt;
-          margin-left: 28pt;
-          width: 60%;
-          font-size: 13pt;
-          font-family: 'Open Sans', sans-serif;
+          padding-bottom: 2pt;
+          height: 30pt;
       }
-      .column-4-texts-download {
-        color: white;
-        margin-top: 0pt;
-        width: 60%;
-        font-size: 13pt;
-        font-family: 'Open Sans', sans-serif;
-    }
-      .pic-2 {
-        box-shadow: 4pt 4pt 5pt black;
-        width: 70%;
-        height: 150pt;
-        border-radius: 1pt 10pt 1pt 10pt;
-        margin-top: 20pt;
-        margin-bottom: 20pt;
-        transition: 1s;
-    }
-    .pic-2:hover {
-        box-shadow: 4pt 4pt 5pt rgb(11, 244, 252);
-        width: 85%;
-        height: 200pt;
-        border-radius: 1pt 10pt 1pt 10pt;
-        margin-top: 20pt;
-        margin-bottom: 20pt;
-    }
-    .pic-download {
-        box-shadow: 4pt 4pt 5pt black;
-        width: 70%;
-        height: 150pt;
-        border-radius: 1pt 10pt 1pt 10pt;
-        margin-top: 20pt;
-        margin-bottom: 20pt;
-        transition: 1s;
-    }
-    .pic-download:hover {
-        box-shadow: 4pt 4pt 5pt rgb(11, 244, 252);
-        width: 85%;
-        height: 200pt;
-        border-radius: 1pt 10pt 1pt 10pt;
-        margin-top: 20pt;
-        margin-bottom: 20pt;
-    }
-    .column-5 {
-        height: 1100pt;
-        background-color: rgb(3, 2, 34);
-        margin-top: -120pt;
-        padding-top: 110pt;
-    }
-    .display-6 {
-        color: #00f2fa;
-        font-size: 22pt;
-        font-weight: bold;
-        margin-top: 0pt;
-        padding-top: 35pt;
-        margin-left: 30%;
-        text-align: left;
-        font-family: 'Open Sans', sans-serif;
-    }
-    .column-5-texts {
-        color: white;
-        margin-top: 0pt;
-        padding-top: 5pt;
-        margin-left: 30%;
-        width: 50%;
-        font-size: 13pt;
-        text-align: left;
-        font-family: 'Open Sans', sans-serif;
-    }
-    .display-7 {
-        color: #130327;
-        font-size: 22pt;
-        font-weight: bold;
-        padding-top: 35pt;
-        font-family: 'Monserrat', sans-serif;
-    }
-    .column-6-texts {
-        color: #130327;
-        width: 50%;
-        margin-top: -25pt;
-        font-size: 13pt;
-        font-family: 'Open Sans', sans-serif;
-    }
-    .timer{
-        font-size: 23pt;
-        font-weight: bold;
-        color: #fa0000;
-    }
-    .column-7 {
-        height: 700pt;
-        background-color: rgb(37, 2, 27);
-        margin-top: -120pt;
-        padding-top: 110pt;
-    }
-    .display-8 {
-        color: #00f2fa;
-        font-size: 22pt;
-        font-weight: bold;
-        margin-top: 0pt;
-        padding-top: 35pt;
-        margin-left: 28pt;
-        font-family: 'Open Sans', sans-serif;
-    }
-    .column-8 {
-        height: 500pt;
-        padding-top: 170pt;
-        background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(bgs/IMG-20211014-WA0008.jpg);
-        background-size: cover;
-    }
-    .column-8-upper {
-        height: 840pt;
-        padding-top: 10pt;
-        background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(bgs/IMG-20211014-WA0008.jpg);
-        background-size: cover;
-    }
-    .column-4-texts a {
-        color: #fa0053;
-    }
-    .display-9 {
-        color: #fa0053;
-        font-size: 22pt;
-        font-weight: bold;
-        margin-top: 0pt;
-        padding-top: 35pt;
-        margin-left: 28pt;
-        font-family: 'Open Sans', sans-serif;
-    }
-    ::placeholder {
-        color: white;
-    }
-    .input {
-        color: white;
-        font-size: 13pt;
-        margin-top: 8pt;
-        height: 30pt;
-        width: 70%;
-        margin-left: 28pt;
-        background: transparent;
-        border: 2pt solid #fa0053;
-        padding-left: 10pt;
-        border-radius: 10pt;
-        font-family: 'Open Sans', sans-serif;
-    }
-    .btn-submit {
-        margin-left: 28pt;
-        margin-top: 8pt;
-        height: 25pt;
-        border: 0pt;
-        width: 30%;
-        background-color: #fa0053;
-        border-radius: 20pt;
-        padding-bottom: 10pt;
-    }
-    .btn-download {
-        border: 0pt;
-        margin-top: 8pt;
-        height: 25pt;
-        width: 30%;
-        background-color: #fa0053;
-        border-radius: 20pt;
-        padding-bottom: 10pt;
-    }
-    .column-8-texts {
-        color: white;
-        font-size: 13pt;
-        font-weight: bold;
-        font-family: 'Monserrat', sans-serif;
-        border: 0pt;
-    }
-    .pic-3 {
-        box-shadow: 4pt 4pt 5pt black;
-        width: 85%;
-        height: 350pt;
-        border-radius: 1pt 10pt 1pt 10pt;
-        margin-top: 20pt;
-        margin-bottom: 20pt;
-    }
-    .end {
-        margin-top: 1920pt;
-    }
-    .column-9 {
-        background-color: rgb(0, 0, 0);
-        height: 40pt;
-        margin-top: -8pt;
-        padding-top: 10pt;
-    }
-    .column-9-user {
-        background-color: rgb(0, 0, 0);
-        height: 40pt;
-        padding-top: 10pt;
-    }
-    .column-9-texts {
-        color: white;
-        font-size: 10pt;
-        font-family: 'Monserrat', sans-serif;
-        text-align: center;
-    }
-    .pic-4 {
-        box-shadow: 4pt 4pt 5pt black;
-        width: 80%;
-        height: 200pt;
-        border-radius: 1pt 10pt 1pt 10pt;
-        margin-top: 20pt;
-        margin-bottom: 20pt;
-        transition: 1s;
-    }
-    .pic-4:hover {
-        box-shadow: 4pt 4pt 5pt rgb(11, 244, 252);
-        width: 85%;
-        height: 200pt;
-        border-radius: 1pt 10pt 1pt 10pt;
-        margin-top: 20pt;
-        margin-bottom: 20pt;
-    }
-    .pic-5 {
-        box-shadow: 4pt 4pt 5pt black;
-        width: 80%;
-        height: 200pt;
-        border-radius: 1pt 10pt 1pt 10pt;
-        margin-top: 20pt;
-        margin-bottom: 20pt;
-        transition: 1s;
-    }
-    .pic-5:hover {
-        box-shadow: 4pt 4pt 5pt rgb(11, 244, 252);
-        width: 85%;
-        height: 200pt;
-        border-radius: 1pt 10pt 1pt 10pt;
-        margin-top: 20pt;
-        margin-bottom: 20pt;
-    }
-}
-
-@media only screen and (min-width: 761px) {
-    body {
-        background:linear-gradient(rgba(0, 0, 0, 0.897),rgba(0, 0, 0, 0.897)), url(bgs/IMG-20211014-WA0008.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-    .links {
-      width: 60%;
-      margin-right: 10pt;
-      margin-bottom: 20pt;
-    }
-    .top {
-        height: 50pt;
-        background-color: #fa0053;
-    }
-    span {
-        display: none;
-        height: 0%;
-        width: 0%;
-    }
-    .links p {
-      color: white;
-      font-family: 'Open Sans', sans-serif;
-      float: left;
-      border-radius: 5pt;
-      font-size: 30pt;
-      height: 3%;
-      margin-left: 10pt;
-      
-      transition: 1s;
-    }
-    .links p:hover {
-        border: 2pt solid rgb(183, 10, 236);
-        border-radius: 10pt;
-    }
-    .display {
-      font-size: 40pt;
-    }
-    .header {
-      color: rgb(19, 226, 192);
-      float: left;
-      margin-top: 10pt;
-      margin-right: 49%;
-      margin-left: 6%;
-      height: 10%;
-      width: 20%;
-      font-family: 'Open Sans', sans-serif;
-      
-    }
-    .column-2 {
-        height: 300pt;
-        width: 100%;
-        color: #000;
-        background-color: rgb(37, 2, 27);
-    }
-    .column-2-body {
-        float: left;
-        margin-top: -30pt;
-        margin-left: 6%;
-        width: 50%;
-    }
-    .display-4 {
-        color: rgb(13, 238, 238);
-        font-size: 25pt;
-        width: 50%;
-        font-weight: bold;
-        margin-top: 0pt;
-        padding-top: 35pt;
-    }
-    .colunn-2-texts {
-      color: rgb(230, 226, 177);
-      width: 70%;
-      font-size: 17pt;
-      font-family: 'Open Sans', sans-serif;
-      
-    }
-    #pic-1 {
-        float: right;
-        height: 240pt;
-        width: 40%;
-        margin-right: 5%;
-        margin-top: -240pt;
-        border-radius: 5pt;
-    }
-    #pic-5 {
-        width: 100%;
-    }
-    .pic {
-        height: 283pt;
-        width: 220pt;
-    }
-    .column-4 {
-        height: 340pt;
-        margin-top: -16pt;
-    }
-    .column-4-user {
-        background-color: rgb(37, 2, 27);
-        height: 100%;
-    }
-    .box {
-        height: 290pt;
-        width: 45%;
-        float: right;
-        margin-right: 10pt;
-        margin-top: -90pt;
-        border: 4pt solid rgb(240, 23, 131);
-        transition: 0.5s;
-    }
-    .box:hover {
-        border:4pt solid rgb(20, 241, 168);
-    }
-    .box-holder-1 {
-        justify-content: center;
-        float: left;
-        margin-right: 5%;
-    }
-    .box-holder-2 {
-        justify-content: center;
-        margin-top: 300pt;
-        margin-left: 7%;
-    }
-    .box-2 {
-        height: 290pt;
-        width: 45%;
-        float: right;
-        margin-right: 10pt;
-        margin-top: 10pt;
-        border: 4pt solid rgb(240, 23, 131);
-        transition: 0.5s;
-    }
-    .box-2:hover {
-        border:4pt solid rgb(20, 241, 168);
-    }
-    .display-5 {
-        color: #00f2fa;
-        font-size: 22pt;
-        font-weight: bold;
-        margin-top: 0pt;
-        padding-top: 35pt;
-        margin-left: 28pt;
-        font-family: 'Monserrat', sans-serif;
-    }
-    .column-4-texts {
-        color: white;
-        margin-top: 0pt;
-        padding-top: 5pt;
-        margin-left: 28pt;
-        width: 80%;
-        font-size: 13pt;
-        font-family: 'Open Sans', sans-serif;
-    }
-    .column-4-texts-download {
-        color: white;
-        justify-content: center;
-        padding-top: 5pt;
-        width: 60%;
-        font-size: 13pt;
-        font-family: 'Open Sans', sans-serif;
-    }
-    .pic-2 {
-        height: 283pt;
-        width: 220pt;
-  }
-  .pic-download {
-    width: 200pt;
-    height: 300pt;
-    border-radius: 10pt;
-    margin-top: 20pt;
-    transition: 0.5s;
-}
-.pic-download:hover {
-    box-shadow: 4pt 4pt 5pt rgb(11, 244, 252);
-}
-.right-float {
-    float: left;
-    margin-left: 100pt;
-    justify-content: center;
-    position: relative;
-}
-  .box-right {
-    height: 290pt;
-    width: 45%;
-    float: left;
-    margin-right: 10pt;
-    margin-top: -90pt;
-    border: 4pt solid rgb(240, 23, 131);
-    transition: 0.5s;
-}
-.box-right:hover {
-    border:4pt solid rgb(20, 241, 168);
-}
-  .column-5 {
-      height: 1000pt;
-      
-      padding-top: 110pt;
-  }
-  .display-6 {
-    color: #00f2fa;
-    font-size: 22pt;
-    font-weight: bold;
-    margin-top: 0pt;
-    padding-top: 35pt;
-    margin-left: 28pt;
-    font-family: 'Monserrat', sans-serif;
-}
-.column-5-texts {
-    color: white;
-    margin-top: 0pt;
-    padding-top: 5pt;
-    margin-left: 28pt;
-    width: 60%;
-    font-size: 13pt;
-    font-family: 'Open Sans', sans-serif;
-}
-  .column-6 {
-      height: 480pt;
-      background-color: rgba(70, 5, 66, 0.637);
-      margin-bottom: 20pt;
-      margin-top: -15pt;
-  }
-  .display-7 {
-      color: white;
-      font-size: 22pt;
-      padding-top: 35pt;
-      font-family: 'Monserrat', sans-serif;
-  }
-  .column-6-texts {
-      color: white;
-      width: 50%;
-      font-size: 18pt;
-      font-family: 'Open Sans', sans-serif;
-  }
-  .timer{
-      font-size: 23pt;
-      font-weight: bold;
-      color: #ffffff;
-  }
-  .pic-4 {
-    width: 300pt;
-    height: 300pt;
-    float: left;
-    border-radius: 300pt;
-    margin-top: 10pt;
-    margin-left: 50pt;
-}
-
-.box-3 {
-    height: 50%;
-    width: 40%;
-    float: right;
-    margin-right: 50pt;
-    margin-top: -30pt;
-    border: 4pt solid rgb(240, 23, 131);
-    transition: 0.5s;
-}
-.box-3:hover {
-    border:4pt solid rgb(20, 241, 168);
-}
-  .column-7 {
-      height: 580pt;
-      background-color: rgb(4, 2, 37);
-      margin-top: -120pt;
-      padding-top: 110pt;
-  }
-  .display-8 {
-      color: #00f2fa;
-      font-size: 22pt;
-      font-weight: bold;
-      margin-left: 28pt;
-      font-family: 'Open Sans', sans-serif;
-  }
-  .column-8 {
-      height: 500pt;
-      padding-top: 170pt;
-      background-color: rgb(20, 18, 18);
-  }
-  .column-8-upper {
-    height: 100%;
-    padding-top: 170pt;
-    background-color: rgb(20, 18, 18);
-}
-  .display-9 {
-      color: #fa0053;
-      font-size: 22pt;
-      font-weight: bold;
-      margin-top: 0pt;
-      padding-top: 35pt;
-      margin-left: 28pt;
-      font-family: 'Open Sans', sans-serif;
-  }
-  ::placeholder {
-      color: white;
-  }
-  .input {
-      color: white;
-      font-size: 13pt;
-      margin-top: 8pt;
-      height: 30pt;
-      width: 30%;
-      margin-left: 28pt;
-      background: transparent;
-      border: 2pt solid #fa0053;
-      padding-left: 10pt;
-      border-radius: 10pt;
-      font-family: 'Open Sans', sans-serif;
-  }
-  .btn-submit {
-      margin-left: 28pt;
-      margin-top: 8pt;
-      height: 25pt;
-      border: 0pt;
-      width: 10%;
-      background-color: #fa0053;
-      border-radius: 20pt;
-      padding-bottom: 10pt;
-  }
-  .btn-download {
-    margin-top: 8pt;
-    height: 25pt;
-    border: 0pt;
-    width: 100pt;
-    background-color: #fa0053;
-    border-radius: 20pt;
-    padding-bottom: 10pt;
-}
-  .column-8-texts {
-      color: white;
-      font-size: 13pt;
-      font-weight: bold;
-      font-family: 'Monserrat', sans-serif;
-      border: 0pt;
-  }
-  .pic-3 {
-      box-shadow: 4pt 4pt 5pt black;
-      width: 85%;
-      height: 350pt;
-      border-radius: 1pt 10pt 1pt 10pt;
-      margin-top: 20pt;
-      margin-bottom: 20pt;
-  }
-  .column-9-user {
-      background-color: rgb(0, 0, 0);
-      height: 40pt;
-  }  
-  .column-9 {
-    background-color: rgb(0, 0, 0);
-    height: 40pt;
-    padding-top: 10pt;
-}
-  .column-9-texts {
-      color: white;
-      font-size: 10pt;
-      font-family: 'Monserrat', sans-serif;
-      text-align: center;
-  }
-  .pic-5 {
-    height: 283pt;
-    width: 220pt;
-    float: right;
-    margin-right: 10%;
-    margin-top: -150pt;
-    border-radius: 5pt;
-  }
-  #text-4 {
-      width: 60%;
-  }
-  .logo {
-    display: none;
-}#pic-2, #pic-3,#pic-4 {
-    display: none;
-}
-.end {
-    margin-top: 1500pt;
-}
-.column-3 {
-    margin-top: -40pt;
-    float: left;
-    margin-left: 10%;
-    width: 50%;
-    display: none;
-}
-.box-4 {
-    height: 200pt;
-    width: 45%;
-    float: left;
-    margin-right: 10pt;
-    margin-top: -20pt;
-    border: 4pt solid rgb(48, 240, 23);
-    transition: 0.5s;
-}
-.box-4:hover {
-    border:4pt solid rgb(20, 241, 168);
-}
-.box-holder-3 {
-    justify-content: center;
-    float: left;
-    margin-right: 5%;
-}
-}
+      .signup {
+          height: 380pt;
+          width: 70%;
+          padding-top: 40pt;
+      }
+      .signup input {
+          width: 100%;
+          margin-bottom: 10pt;
+          box-shadow: 1pt;
+          border-color: rgb(155, 148, 148);
+      }
+      .signup p {
+          text-align: left;
+          font-size: 11pt;
+          font-family: 'Open Sans' sans-serif;
+      }
+      .column-8-texts {
+          color: white;
+          font-weight: bold;
+          margin-left: 30%;
+          margin-top: 4%;
+      }
+      .display-signup {
+          font-size: 23pt;
+          font-weight: bold;
+          color:  rgb(90, 7, 86);
+      }
