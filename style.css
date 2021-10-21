@@ -346,9 +346,6 @@
 }
 
 @media only screen and (min-width: 761px) {
-    #text-1, #text-2, #text-3, #text-4 {
-        display: none;
-    }
     body {
         background:linear-gradient(rgba(0, 0, 0, 0.897),rgba(0, 0, 0, 0.897)), url(bgs/IMG-20211014-WA0008.jpg);
         background-size: cover;

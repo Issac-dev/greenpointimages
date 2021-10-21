@@ -14,13 +14,4 @@ $(document).ready(function () {
             $("#text-4").fadeIn(16000);
         });
     }
-    if ($(window).width() > 500) {
-        $(document).scroll(function () {
-            $("#text-1").fadeIn(3000);
-            $("#pic-5").slideDown(3100);
-            $("#text-2").fadeIn(3000);
-            $("#text-3").fadeIn(3000);
-            $("#text-4").fadeIn(3000);
-        });
-    }
 });
