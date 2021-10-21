@@ -75,6 +75,7 @@
           height: 150pt;
           width: 80%;
           transition: 0.5s;
+          margin-bottom: 20pt;
       }
       .column-1-body {
           width: 70%;
@@ -181,6 +182,7 @@
         display: none;
     }
     #part-6 {
+        padding-top: 10pt;
         display: none;
     }
 }
@@ -259,6 +261,7 @@
           margin-top: 20pt;
           height: 10%;
           width: 60%;
+          margin-bottom: 20pt;
           transition: 0.5s;
       }
       .column-1-body {
@@ -338,7 +341,7 @@
           color:  rgb(90, 7, 86);
       }
       #pic-1 {
-          height: 380pt;
+          height: 300pt;
       }
       #part-1 {
           background-color: rgb(42, 4, 46);
@@ -366,6 +369,7 @@
         display: none;
     }
     #part-6 {
+        padding-top: 10pt;
         display: none;
     }
 }
